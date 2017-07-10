@@ -26,13 +26,6 @@ Si no ocurrió algún problema de conexión a Internet veremos que nuestro proye
 
 ![](https://styde.net/wp-content/uploads/2014/11/proyecto-creado-composer-laravel.png)
 
-Finalmente para verificar que la creación de nuestro proyecto “pruebita” se realizó de manera correcta, accede a http://192.168.10.10/nombre_del_proyecto/public en el navegador de tu preferencia, despues de ejecutar por la consola
-
-```
-php artisan serve
-```
-
-
 Para que nuestro proyecto funcione correctamente debemos darle permisos a las siguientes carpetas:
 
 * boostrap/cache
@@ -43,6 +36,12 @@ Para esto, realizamos el siguiente paso dentro de la consola y parado en nuestro
 ```
 cd Code/nombre_proyecto
 sudo chmod 775 boostrap/cache -R && sudo chmod 775 storage/ -R 
+```
+
+Finalmente para verificar que la creación de nuestro proyecto “pruebita” se realizó de manera correcta, accede a http://192.168.10.10/nombre_del_proyecto/public en el navegador de tu preferencia, despues de ejecutar por la consola
+
+```
+php artisan serve
 ```
 
 
