@@ -33,7 +33,7 @@ Después de tener instalado composer en nuestro equipo necesitamos instalar **[V
 
 Lo siguiente que debemos de hacer es tener [Vagrant](https://www.vagrantup.com/) instalado en nuestro equipo, esto debido a que **Homestead** es una **box** de **vagrant**, es decir, todo lo que necesitamos para tener nuestro entorno de desarrollo listo para empezar a trabajar con él. Una vez instalado vagrant debemos agregar el **box**, lo cual se hace desde la consola con el siguiente comando
 
-```bash
+```
 vagrant box add laravel/homestead
 ```
 
@@ -45,7 +45,7 @@ Por último debemos de tener un cliente SSH para poder conectarnos a nuestra má
 
 Una vez que tengamos todos los requerimientos podemos empezar con la instalación de Laravel Homestead, desde nuestra consola de git tecleamos el comando
 
-```bash
+```
 composer global require "laravel/homestead=~2.0"
 ```
 
